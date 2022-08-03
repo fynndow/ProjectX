@@ -54,3 +54,10 @@ h2 {
     width: auto;
     margin: 20px 910px 30px 10px;
 }
+
+@font-face {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Source+Code+Pro&display=swap");
+}
