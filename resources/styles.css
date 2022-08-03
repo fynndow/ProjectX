@@ -4,7 +4,7 @@ body {
 
 .color, .fonts, .text-styles {
     border: 1px solid grey;
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
     height: auto;
 }
@@ -51,13 +51,37 @@ h2 {
 
 .beige {
     background-color: #efd9ca;
-    width: auto;
     margin: 20px 910px 30px 10px;
+    padding-right: 17px;
 }
+
 
 @font-face {
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Code Pro', monospace;
     src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Source+Code+Pro&display=swap");
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.source-code-pro {
+    font-family: "Source Code Pro", monospace;
+    margin: 20px 125px 20px 125px;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    margin: 20px 125px 20px 125px;
+}
+
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 20px 500px;
+}
+
+.bold {
+    font-weight: bold;
 }
