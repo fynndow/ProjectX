@@ -15,18 +15,17 @@ h1 {
 
 h2 {
     text-align: center;
-    margin: 10px;
 }
 
 .first-row {
     display: flex;
-    width: 1100;
+    width: 100%;
     flex: row;
     text-align: center;
 }
 
 .cool-blue, .pink, .mint-green, .beige {
-    width: 400px;
+    width: 30%;
     border-radius: 0;
     text-align: center;
     margin-top: 0px;
@@ -53,6 +52,7 @@ h2 {
     background-color: #efd9ca;
     margin: 20px 910px 30px 10px;
     padding-right: 17px;
+    width: 30.2%;
 }
 
 
@@ -69,19 +69,27 @@ h2 {
 
 .source-code-pro {
     font-family: "Source Code Pro", monospace;
-    margin: 20px 125px 20px 125px;
+    margin: 20px 12.5% 20px 12.5%;
 }
 
 .poppins {
     font-family: "Poppins", sans-serif;
-    margin: 20px 125px 20px 125px;
+    margin: 20px 12.5% 20px 12.5%;
 }
 
 .nunito-sans {
     font-family: "Nunito Sans", sans-serif;
-    margin: 20px 500px;
+    margin: 20px 25% 20px 40%;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.text-styles ul {
+    margin: 0px 0px 0px 47%;
+}
+
+.text-styles p{
+    text-align: center;
 }
